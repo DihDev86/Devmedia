@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprendendo a usar listas não ordenadas">
+    <title>Lista não ordenada</title>
+</head>
+<body>
+    <h1>Listas Não Ordenadas</h1>
+        <p style="font-size: 18px;">O objetivo da lista não ordenada é agrupar itens dentro do documento HTML, sem se preocupar com a sequência deles, como mostra a Figura 1.</p>
+        <img src="./listasnaoordenada1.png">
+    <hr/>
+
+    <h2>Sintaxe</h2>
+        <p style="font-size: 18px;">-Uma lista não ordenada se inicia e se encerra respectivamente através das tags ul e /ul.<br/>
+
+        -Um item da lista se inicia e se encerra respectivamente através das tags li e /li.<br/>
+        
+        -Dentro de um item, assim como na lista ordenada, podemos utilizar qualquer elemento HTML que quisermos (títulos, parágrafos, imagens etc.).</p>
+
+    <h3>Exemplo:</h3>
+        <ul style="font-size: 18px;">
+            <li>Laravel</li>
+            <li>Controle de versão Git</li>
+            <li>Orientação a objetos</li>
+            <li>Arquitetura MVC</li>
+        </ul>
+
+    <h3>Código:</h3>
+        <img src="./nãoordenada.png">
+    <hr/>
+
+    <h2>Atributo de Marcação (type)</h2>
+        <p style="font-size: 18px;">-A principal diferença entre a lista não ordenada e a lista ordenada está na maneira com que os itens de cada lista são apresentados.<br/>
+
+        -A lista não ordenada coloca marcadores antes de cada elemento, enquanto a lista ordenada enumera os itens.<br/>
+        
+        -Nas listas não ordenadas também podemos alterar seu marcador padrão, que inicialmente é setado como disc (círculos pretos).</p>
+    
+    <h2>Type Circle:(Bolinha vazia)</h2>
+        <ul style="font-size: 18px;" type="circle">
+            <li>Laravel</li>
+            <li>Controle de versão Git</li>
+            <li>Orientação a objetos</li>
+            <li>Arquitetura MVC</li>
+        </ul>
+    
+    <h3>código:</h3>
+        <img src="./tipocirculo.png">
+        <hr/>
+
+    <h2>Type None:(Remove marcação)</h2>
+        <ul style="font-size: 18px;" type="none">
+            <li>Laravel</li>
+            <li>Controle de versão Git</li>
+            <li>Orientação a objetos</li>
+            <li>Arquitetura MVC</li>
+        </ul>
+    
+    <h3>Código:</h3>
+        <img src="./typenone.png">
+    <hr/>
+
+    <h2>Exemplo:</h2>
+    <ul style="font-size: 18px;">
+        <li>
+            <h3>Eletrodomésticos</h3>
+            <ul type="circle">
+                <li>Torradeiras</li>
+                <li>Fornos e Fogões</li>
+                <li>Geladeiras</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hardware</h3>
+            <ul type="circle">
+                <li>Placas de vídeo</li>
+                <li>Placas de Som</li>
+                <li>Processadores</li>
+            </ul>
+        </li>
+    </ul>
+    <img src="./exemploul.png">
+
+    
+</body>
+</html>
