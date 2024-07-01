@@ -1,0 +1,108 @@
+.logo{
+    background-color:rgb(134, 211, 249) ;
+    text-align: center; 
+    margin-bottom: 30px;
+    width: auto;
+    height: 400px;
+}
+
+.logo a{
+    margin-right: 30px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.banner, img{
+    text-align: center;
+}
+
+.secao-sobre{
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.secao-sobre h1{
+    font-weight: bold;
+}
+
+.secao-sobre h2{
+    color: blue;
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.secao-sobre span{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secao-servicos{
+    text-align: center;
+    background-color:rgb(63, 184, 244) ;
+    color: white;
+    
+}
+
+.secao-servicos span{
+    color: yellow;
+}
+
+.secao-servicos{
+    font-weight: bold;
+}
+
+.center-list{
+    font-size: 30px;
+    margin: 0 auto;
+    display: table;
+}
+
+.secao-corretores{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.secao-corretores span{
+    color: blue;
+}
+
+.secao-contato{
+    text-align: center;
+    background-color:rgb(63, 184, 244) ;
+    
+}
+
+iframe{
+    width: 1200px;
+    height: 800px;
+}
+
+.secao-contato p{
+    color: white;
+    background-color: black;
+    boder: 1px solid black;
+    padding: 5px;
+}
+
+.secao-contato span{
+    color: yellow;
+}
+
+.secao-contato a{
+    background-color: white;
+    border: 2px solid white;
+    font-size: 25px;
+}
